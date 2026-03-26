@@ -100,7 +100,7 @@ export default function Home() {
           />
           <button
             type="submit"
-            className="rounded bg-blue-600 px-4 py-2 text-white hover:bg-blue-700"
+            className="rounded bg-gradient-to-r from-blue-500 via-cyan-500 to-indigo-500 px-4 py-2 text-white shadow-lg shadow-blue-500/30 transition-all duration-200 hover:scale-[1.05]"
           >
             Add
           </button>
@@ -129,7 +129,7 @@ export default function Home() {
                     </div>
                     <button
                       onClick={() => handleDelete(item.id)}
-                      className="rounded bg-red-600 px-2 py-1 text-white hover:bg-red-700"
+                      className="rounded bg-gradient-to-r from-rose-500 via-red-500 to-amber-500 px-2 py-1 text-white shadow-lg shadow-rose-500/30 transition-all duration-200 hover:scale-[1.04]"
                     >
                       Delete
                     </button>
@@ -152,6 +152,7 @@ export default function Home() {
           )}
       </main>
 
+      
       <style jsx global>{`
         @keyframes slide-in {
           from {
